@@ -14,10 +14,5 @@ public class GutterBall : MonoBehaviour {
 	
 	}
 
-    void OnTriggerExit(Collider ball) {
-        if(ball.gameObject.GetComponent<Ball>()) {
-            pinSetter.SetBallOutOfPlay();
-            
-        }
-    }
+
 }
