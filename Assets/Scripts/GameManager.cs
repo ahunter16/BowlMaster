@@ -27,7 +27,9 @@ public class GameManager : MonoBehaviour {
         ball.Reset();
     }
 
-    
+    public void ChangeBallState(bool state) {
+        ball.inPlay = state;
+    }
 
 
 }
